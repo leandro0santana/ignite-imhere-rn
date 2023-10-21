@@ -8,8 +8,9 @@ import {
 } from 'react-native'
 import { useState } from 'react'
 
-import { styles } from './styles'
 import { Participant } from '../../components/Participant'
+
+import { styles } from './styles'
 
 export function Home() {
   const [participants, setParticipants] = useState<string[]>([])
